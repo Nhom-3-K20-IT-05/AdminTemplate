@@ -76,102 +76,34 @@
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
             </li>
-
-            <!-- Layouts -->
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-layout"></i>
-                <div data-i18n="Layouts">Layouts</div>
-              </a>
-
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="without-menu" class="menu-link">
-                    <div data-i18n="Without menu">Without menu</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="without-navbar" class="menu-link">
-                    <div data-i18n="Without navbar">Without navbar</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="container" class="menu-link">
-                    <div data-i18n="Container">Container</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="fluid" class="menu-link">
-                    <div data-i18n="Fluid">Fluid</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="blank" class="menu-link">
-                    <div data-i18n="Blank">Blank</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
-
+            
             <li class="menu-header small text-uppercase">
               <span class="menu-header-text">Pages</span>
-            </li>            
+            </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
-                <div data-i18n="Authentications">Authentications</div>
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Account Settings</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="login" class="menu-link" target="_blank">
-                    <div data-i18n="Basic">Login</div>
+                  <a href="settings-account" class="menu-link">
+                    <div data-i18n="Account">Account</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="register" class="menu-link" target="_blank">
-                    <div data-i18n="Basic">Register</div>
+                  <a href="settings-notifications" class="menu-link">
+                    <div data-i18n="Notifications">Notifications</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="forgot-password" class="menu-link" target="_blank">
-                    <div data-i18n="Basic">Forgot Password</div>
+                  <a href="settings-connections" class="menu-link">
+                    <div data-i18n="Connections">Connections</div>
                   </a>
                 </li>
               </ul>
             </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
-                <div data-i18n="Misc">Misc</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="error" class="menu-link">
-                    <div data-i18n="Error">Error</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="maintenance" class="menu-link">
-                    <div data-i18n="Under Maintenance">Under Maintenance</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <!-- Components -->
-            <li class="menu-header small text-uppercase"><span class="menu-header-text">Components</span></li>
-            <!-- Cards -->
-            <li class="menu-item">
-              <a href="cards" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-collection"></i>
-                <div data-i18n="Basic">Cards</div>
-              </a>
-            </li>                       
-
-            <!-- Extended components -->
-            <li class="menu-item">
-              <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
-                <div data-i18n="Extended UI">Extended UI</div>
+            
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
