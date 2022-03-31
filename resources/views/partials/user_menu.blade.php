@@ -100,7 +100,7 @@
             </a>
             <ul class="menu-sub">
                 <li class="menu-item">
-                    <a href="blog" class="menu-link">
+                    <a href="under-maintenance" class="menu-link">
                         <div data-i18n="Basic Inputs">My Blog</div>
                     </a>
                 </li>
