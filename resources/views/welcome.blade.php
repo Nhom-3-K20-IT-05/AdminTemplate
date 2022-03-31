@@ -47,7 +47,7 @@
                     <div class="d-flex align-items-end row">
                       <div class="col-sm-7">
                         <div class="card-body">
-                          <h5 class="card-title text-primary">Hi there.</h5>
+                          <h5 class="card-title text-primary">Hi there &#128075</h5>
                           @if (Route::has('login'))
                           @auth                            
                           <a href="{{ url('/home') }}" class="btn btn-sm btn-outline-primary">Home</a>
@@ -56,11 +56,11 @@
                             This is the homepage.                                                      
                           </p>
                           <p class="mb-4">
-                          Please <a href="{{ url('/login') }}" class="btn btn-sm btn-outline-primary">login</a> to use our service.
+                          Please 👉<a href="{{ url('/login') }}">login</a> to use our service.
                           </p> 
                           <p class="mb-4">
                           @if (Route::has('register'))                          
-                          Or <a href="{{ url('/register') }}" class="btn btn-sm btn-outline-primary">register</a> here.
+                          Or 👉<a href="{{ url('/register') }}">register</a> here.
                           </p>
                           @endif
                           @endauth
