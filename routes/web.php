@@ -25,3 +25,10 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/settings-account', [App\Http\Controllers\ProfileController::class, 'account'])->name('settings-account');
 Route::get('/settings-connections', [App\Http\Controllers\ProfileController::class, 'connections'])->name('settings-connections');
 Route::get('/settings-notifications', [App\Http\Controllers\ProfileController::class, 'notifications'])->name('settings-notifications');
+
+// Maintenance and Error //
+Route::get('/under-maintenance', [App\Http\Controllers\MaintenanceController::class, 'maintenance'])->name('under-maintenance'); 
+
+Route::get('/blog', function () {
+    return view('blog.blog');
+});

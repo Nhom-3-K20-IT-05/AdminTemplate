@@ -100,17 +100,17 @@
             </a>
             <ul class="menu-sub">
                 <li class="menu-item">
-                    <a href="basic-inputs" class="menu-link">
+                    <a href="blog" class="menu-link">
                         <div data-i18n="Basic Inputs">My Blog</div>
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="input-groups" class="menu-link">
+                    <a href="under-maintenance" class="menu-link">
                         <div data-i18n="Input groups">Edit Blog</div>
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="input-groups" class="menu-link">
+                    <a href="under-maintenance" class="menu-link">
                         <div data-i18n="Input groups">Upload Blog</div>
                     </a>
                 </li>

@@ -58,17 +58,20 @@
                          <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                              @csrf
                          </form>
+                         <a class="dropdown-item" href="{{ url('/home') }}">
+                            <i class="bx bx-power-off me-2"></i>
+                            <span class="align-middle">Home</span>
+                        </a>
                          @else
                          <a class="dropdown-item" href="{{ route('login') }}">
                              <i class="bx bx-power-off me-2"></i>
                              <span class="align-middle">Login</span>
                          </a>
-
-                         @if (Route::has('register'))
-                         <a class="dropdown-item" href="{{ route('register') }}">
-                             <i class="bx bx-power-off me-2"></i>
-                             <span class="align-middle">Register</span>
-                         </a>
+                         @if (Route::has('login'))
+                         <a class="dropdown-item" href="{{ url('/home') }}">
+                            <i class="bx bx-power-off me-2"></i>
+                            <span class="align-middle">Home</span>
+                        </a>
                          @endif
                          @endauth
                          @endif
