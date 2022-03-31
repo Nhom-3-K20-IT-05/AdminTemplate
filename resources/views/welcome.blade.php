@@ -55,9 +55,15 @@
                           <p class="mb-4">
                             This is the homepage. Please login to use our service.
                           </p>                
-                          <a href="{{ url('/login') }}" class="btn btn-sm btn-outline-primary">Login</a>                          
+                          <a href="{{ url('/login') }}" class="btn btn-sm btn-outline-primary">Login</a>
+                          @if (Route::has('register'))
+                          <p class="mb-4">
+                            Or register here.
+                          </p>                
+                          <a href="{{ url('/register') }}" class="btn btn-sm btn-outline-primary">Register</a>
                           @endif
-                        @endauth
+                          @endauth
+                          @endif
                         </div>
                       </div>
                       <div class="col-sm-5 text-center text-sm-left">

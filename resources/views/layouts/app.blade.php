@@ -48,11 +48,8 @@
                         <div class="card-body">
                           <h5 class="card-title text-primary">Hi {{ Auth::user()->name }} 🎉</h5>
                           <p class="mb-4">
-                            You have done <span class="fw-bold">72%</span> more sales today. Check your new badge in
-                            your profile.
-                          </p>
-
-                          <a href="javascript:;" class="btn btn-sm btn-outline-primary">View Badges</a>
+                          Welcome. You have logged in.
+                          </p>                          
                         </div>
                       </div>
                       <div class="col-sm-5 text-center text-sm-left">
