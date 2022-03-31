@@ -2,6 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\ProductController;
+
+use App\Http\Controllers\ProfileController;
+
+use App\Http\Controllers\HomeController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,9 +28,8 @@ Route::get('/welcome', function () {
 
 Auth::routes();
 
-// Welcome and Home Page//
+// HomePage//
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
-//Route::get('/welcome', [App\Http\Controllers\HomeController::class, 'welcomepage'])->name('home');//
 
 // Account settings //
 Route::get('/settings-account', [App\Http\Controllers\ProfileController::class, 'account'])->name('settings-account');
@@ -32,8 +37,11 @@ Route::get('/settings-connections', [App\Http\Controllers\ProfileController::cla
 Route::get('/settings-notifications', [App\Http\Controllers\ProfileController::class, 'notifications'])->name('settings-notifications');
 
 // Maintenance and Error //
-Route::get('/under-maintenance', [App\Http\Controllers\MaintenanceController::class, 'maintenance'])->name('under-maintenance'); 
+Route::get('/under-maintenance', [App\Http\Controllers\MaintenanceController::class, 'maintenance'])->name('under-maintenance');
 
-Route::get('/blog', function () {
-    return view('blog.blog');
-});
+// Products //
+Route::resource('products', ProductController::class);
+Route::get('/products.index', [App\Http\Controllers\ProductController::class, 'index'])->name('Products');
+
+
+
