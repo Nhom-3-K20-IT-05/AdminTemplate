@@ -1,13 +1,7 @@
 @extends('products.layout')
 
 @section('content')
-<div class="row">
-    <div class="col-lg-12 margin-tb">
-        <div class="pull-right">
-            <a class="btn btn-success" href="{{ route('products.create') }}"> Create New Product</a>
-        </div>
-    </div>
-</div>
+
 
 @if ($message = Session::get('success'))
 <div class="alert alert-success">
@@ -18,6 +12,10 @@
 <div class="card">
     <h5 class="card-header">Table Basic</h5>
     <div class="table-responsive text-nowrap">
+        <div class="pull-right">
+            <a class="btn btn-primary" href="{{ route('products.create') }}"><span
+                    class="tf-icons bx bx-plus"></span>&nbsp; Create New Product</a>
+        </div>
         <table class="table">
             <thead>
                 <tr>
