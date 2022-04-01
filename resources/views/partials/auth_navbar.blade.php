@@ -60,7 +60,7 @@
                         </a>
 
                         @if (Route::has('register'))
-                        <a class="dropdown-item" href="">
+                        <a class="dropdown-item" href="{{ route('register') }}">
                             <i class="bx bx-power-off me-2"></i>
                             <span class="align-middle">Register</span>
                         </a>
